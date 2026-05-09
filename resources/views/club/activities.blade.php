@@ -10,6 +10,7 @@
     <li class="activity-item">
 
         <strong>{{ $activity['title'] }}</strong><br>
+        <p>{{ $activity['description'] }}</p>
 
         <a href="{{ route('club.activity.show', $activity['slug']) }}">
             
